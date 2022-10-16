@@ -1,0 +1,41 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(34, 34, 35, 0.88);
+  color: rgb(255, 255, 255);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+}
+.main .main-paragraph, .main .main-paragraph2 {
+  font-weight: 400;
+  padding: 0 10px;
+}
+.main .main-paragraph:hover, .main .main-paragraph2:hover {
+  color: indianred;
+}
+.main .main-paragraph2 {
+  font-weight: 700;
+}
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column;
+  }
+}
+
+.light {
+  background-color: rgba(255, 255, 255, 0.88);
+  color: black;
+}
+
+/*# sourceMappingURL=main.css.map */
